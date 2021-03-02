@@ -1,45 +1,79 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome USER_NAME,
+# COVID-19 Vaccine 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+This static website, for local district government bosy is currently designed for giving out information about COVID-19 vaccine and registration for the users who want to take the Vaccine.
+Target audience are all the users ( aged above 18) who wish to vaccinate themselves and their loved ones.
 
-## Gitpod Reminders
+This project should guide the user on his/her concerns about the vaccine and information on the locations where one can get vaccinated and ways to reach the authorities.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Showcase
 
-`python3 -m http.server`
+A deployed link to the website can be found [here](https://nemixu.github.io/Milestone1/).
 
-A blue button should appear to click: *Make Public*,
+![Preivew](https://github.com/nemixu/Milestone1/blob/master/assets/images/wireframes/laptop%20landing%20page.png)
 
-Another blue button should appear to click: *Open Browser*.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+# UX
 
-A blue button should appear to click: *Make Public*,
+## Organisational goals
 
-Another blue button should appear to click: *Open Browser*.
+The organisation, Västra Götaland - Regional district government body wants 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+1. To reach as many users as they can, by get registrations for vaccination.
+2. To give clear information of COVID-19 vaccine safety.
+3. To make sure that the user receives the information on when he can get vaccinated.
+4. To make user able to register for someone else vaccination with user's own contact information.
+5. To make it easy to navigate and register by user.
+6. To evoke positive feeling of healing by the color and font themes. 
 
-## Updates Since The Instructional Video
+## User Goals
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+AS an User ( aged above 18), I should be able to
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+1. Get answers for all my concerns regarding COVID-19 Vaccine
+2. Reach the authorities by various means via email, telephone, or direct contact to get answers
+3. Easily navigate and get info on when and where the Vaccination happens.
+4. Register for my family and loved ones, who cannot do themselves.
+5. Get clear information on when I can take the Vaccine.
+6. Any tips and advice before I take the Vaccine
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### User Needs.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+User should access the website on all devices and should be easy enough to navigate and get all the info needed
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+#### Technical limitations
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Current project is only designed to be static. There is lot of scope to improve the content and features. For example, after the user registers oneself, there can be detailed information popped out
+like when and where he can be vaccinated. This is out of scope for current Milestone 1 project. Only HTML and CSS are used.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+#### Developer and Businees goals
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* Clearly planned programming is done that leaves developers to improve the application further, easily and flexibly.
+* A project which has lot of scope to make improvements further in the future.
 
---------
+### Scope
 
-Happy coding!
+To attract lot of traffic and get registrations,  as the District Government body goal is to vaccinate as many people as they can. It is important to get all social media links function properly 
+and to reach wider audience, everythign should be smoother and simpler.
+
+### Structure
+
+With a welcoming text of explaining what this website is about and navigation links to Registration, contact and all latest press releases about COVID-19, site is designed 
+to let user act upon quickly. Main page should be able to address the simple concerns of the user on how the vaccine works and if it is safe. 
+
+The registration page should warn the user on, when can he expect the vaccine and how the information will reach him. 
+
+Contact page should provide all the ways, apart from Social media( which is in Footer) and means of reaching the authorities on concerns, and queries.
+
+The physical location should be there on main page as well, to direct the users if they want to talk to someone directly
+
+Footer contains the social media info.
+
+
+
+
+
+**This project is for educational use only and was created for the Code Institute Module of User Centric front end development**
+
+**Created by Murthy Valavala**
+
