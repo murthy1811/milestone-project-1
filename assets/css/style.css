@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+
+/* ------------------------------------------------background colors */
+
+
+
+
+
+/* ------------------------------------------------header */
+
+.logo img{    
+    height: 100px;
+    width: 70%;
+    }
+    
+.logo{
+    margin: 0;
+    float: left;
+    padding-top: 10px;
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-size: contain;
+    margin: 0;
+}
+
+.menuitem{
+    float: right;
+}
+
+.menuitem li{
+    display: inline-block;
+    margin: 20px;    
+}
+
+.menuitem span{
+    display: block;
+    padding-top: 15px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+}
+
+.menuitem a{
+    width: 100%;
+    text-decoration: none;
+    color : rgb(11, 66, 168);
+    height :  90px;
+}
+
+@media(max-width:1025px){
+    .logo{
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-size: contain;
+    margin: 0;
+    padding-top: 10px;
+    padding-right: 10px;
+    }
+
+    .logo img{
+        height: 90px;
+        width: 110%;
+    }
+
+    .menuitem li{
+        margin: 2px;
+        display: inline-block;
+        padding-left: 10px;
+        padding-top: 10px;
+
+    }
+
+    .menuitem span{
+    display: block;
+    padding-top: 15px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+}
+}
+
+@media(max-width:450px){
+    .logo{
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-size: contain;
+    margin: 0;
+    padding-top: 10px;
+    padding-right: 10px;
+    }
+
+    .logo img{
+        height: 75px;
+        width: 110%;
+    }
+   
+}
