@@ -7,7 +7,7 @@
 
 
 
-/* ------------------------------------------------header */
+/* ---------------------------------------------------------------------------header */
     
 .logo{
     background: url("../images/site-images/vastra-gotaland-logo.jpeg");
@@ -19,16 +19,25 @@
     height: 100px;
    }
 
-
-
 .navbar-toggler{
      position: center;
 }
 
-.menuitem{
-    padding-top: 20px;
+.menuitem li{
+    margin: 15px;    
 }
 
+.navbar-light .navbar-nav .nav-link{
+    color: #2098d1;    
+}
+
+.navbar {    
+    float: right;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+}
 
 
 
@@ -42,5 +51,89 @@
     background-origin: content-box;
     padding-top: 10px;
     }
+
+.menuitem li{
+    margin: 0;
 }
 
+.navbar-expand-lg{
+    float: none;
+}
+
+}
+
+
+/* ---------------------------------------------------------------------------hero image */
+
+
+.heroimage {
+    background: url("../images/site-images/heroimage.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    height: 700px;
+    margin-top: 5px;
+}
+
+.mainnote{
+    font-family: "Quicksand", sans-serif;
+    font-size: 90px;
+    font-weight: 300px;
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 75px;
+    text-transform: uppercase;
+    color: #bfc8db;
+    letter-spacing: 2px;
+}
+
+@media(max-width:576px){
+
+.heroimage {
+    background: url("../images/site-images/heroimage.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    height: 200px;
+    margin-top: 5px;
+}
+
+.mainnote{
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    font-weight: 500px;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    color: #bfc8db;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+}
+
+@media(max-width:992px){
+
+    .heroimage {
+    background: url("../images/site-images/heroimage.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    height: 450px;
+    margin-top: 5px;
+}
+
+.mainnote{
+    font-family: "Quicksand", sans-serif;
+    font-size:50px;
+    font-weight: 500px;
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    color: #bfc8db;
+    
+}
