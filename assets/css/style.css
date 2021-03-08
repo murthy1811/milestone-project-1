@@ -99,7 +99,7 @@
     background-position: center;
     margin: 0;
     height: 200px;
-    margin-top: 5px;
+   
 }
 
 .mainnote{
@@ -152,9 +152,13 @@
 
 /* -------------------------------------------------------------information section */
 
-.sideimage{
-    display: inline;
-}
+.advice-banner{
+    text-align: center;
+    color: #d17e20;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    }
 
 .info-vaccine{
     padding-top: 10px;
@@ -166,4 +170,66 @@
     font-family: "Nunito", sans-serif;
     text-transform: uppercase;
     color: #2098d1;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
 }
+
+.info-vaccine p{
+    text-align: justify;
+}
+
+.info-image{
+    display: inline-block;
+    text-align: center;
+}
+
+.info-image img{   
+    border-radius: 25px;   
+    position: center;
+}
+
+.alignment-para p{
+   text-align: center;
+   padding-top: 10px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #e47332;
+    border-color: #e47332;
+}
+
+.btn-success a{
+   text-decoration: none;
+   color: #fafafa;
+}
+
+mark{
+    background-color: #e3f9fc;
+}
+
+.detail-info p{
+   height: 10px;
+     
+}
+@media only screen and (max-width: 992px) and (min-width: 768px)  {
+
+    .info-image img{   
+    border-radius: 25px;
+    max-width: 200px;
+    max-height: 150px;
+}
+}
+
+@media only screen and (max-width: 576px){
+     .info-image img{   
+    border-radius: 25px;
+    max-width: 200px;
+    max-height: 150px;
+}
+}
+
+/* -------------------------------------------------------------locations info */
+
