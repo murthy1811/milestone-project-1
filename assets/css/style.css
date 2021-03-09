@@ -182,7 +182,7 @@
 }
 
 .info-vaccine ul{
-    text-align: justify;
+    /* text-align: justify; */
     padding-top: 20px;
 }
 
@@ -271,7 +271,18 @@ mark{
     color: darkgreen;
 }
 
-/* -------------------------------------------------------------locations info */
+@media(max-width:576px){
+
+.location{
+    padding: 10px;
+}
+
+.location h4, h5{
+    font-size: 1rem;
+}
+}
+
+/* -------------------------------------------------------------FOOTER */
 
 .rights{
     padding-left: 20px;
@@ -300,4 +311,18 @@ mark{
     text-align: left;
     padding-top: 20px;
     color: #2098d1;
+}
+
+@media(max-width:576px){
+    .rights{
+        text-align: center;
+    }
+
+#social-links-heading{
+    text-align: center;
+}
+
+.social-links {
+    text-align: center;
+}
 }
