@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&family=Quicksand:wght@300;500&display=swap');
 
 
-/* ------------------------------------------------background colors */
-
-
-
-
-
 /* ---------------------------------------------------------------------------header */
     
 .logo{
@@ -19,9 +13,7 @@
     height: 100px;
    }
 
-.navbar-toggler{
-     position: center;
-}
+
 
 .menuitem li{
     margin: 15px;    
@@ -81,7 +73,7 @@
 .mainnote{
     font-family: "Quicksand", sans-serif;
     font-size: 90px;
-    font-weight: 300px;
+    font-weight: 300;
     text-align: left;
     padding-top: 100px;
     padding-left: 75px;
@@ -105,7 +97,7 @@
 .mainnote{
     font-family: "Quicksand", sans-serif;
     font-size: 20px;
-    font-weight: 500px;
+    font-weight: 500;
     text-align: left;
     padding-top: 50px;
     padding-left: 10px;
@@ -140,7 +132,7 @@
 .mainnote{
     font-family: "Quicksand", sans-serif;
     font-size:50px;
-    font-weight: 500px;
+    font-weight: 500;
     text-align: left;
     padding-top: 100px;
     padding-left: 10px;
@@ -151,6 +143,19 @@
 
 
 /* -------------------------------------------------------------information section */
+
+.bg-color-first{
+    background-color: rgba(171, 208, 233, 0.452);
+}
+
+.bg-color-second{
+    background-color: rgb(227, 217, 243,0.5);
+}
+
+.bg-color-third{
+    background-color: rgba(171, 208, 233, 0.452);
+}
+
 
 .advice-banner{
     text-align: center;
@@ -176,8 +181,9 @@
     letter-spacing: 2px;
 }
 
-.info-vaccine p{
+.info-vaccine ul{
     text-align: justify;
+    padding-top: 20px;
 }
 
 .info-image{
@@ -187,33 +193,33 @@
 
 .info-image img{   
     border-radius: 25px;   
-    position: center;
+    
 }
 
 .alignment-para p{
    text-align: center;
    padding-top: 10px;
+   
 }
 
 .btn-success {
     color: #fff;
     background-color: #e47332;
     border-color: #e47332;
+    
 }
 
-.btn-success a{
-   text-decoration: none;
-   color: #fafafa;
-}
+
 
 mark{
     background-color: #e3f9fc;
 }
 
 .detail-info p{
-   height: 10px;
-     
+   height: 10px;     
+
 }
+
 @media only screen and (max-width: 992px) and (min-width: 768px)  {
 
     .info-image img{   
@@ -233,3 +239,65 @@ mark{
 
 /* -------------------------------------------------------------locations info */
 
+.timing-note{
+    padding-top: 10px;
+    margin: auto;
+    
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: cornflowerblue;
+}
+
+.addresses{
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(171, 208, 233, 0.452);
+    font-family: "Quicksand", sans-serif;
+    letter-spacing: 2px;
+}
+
+.addresses h5{
+    color: darkcyan;
+}
+
+#googlemaps{
+    width: 100%;
+}
+
+.location h4{
+    text-transform: uppercase;
+    color: darkgreen;
+}
+
+/* -------------------------------------------------------------locations info */
+
+.rights{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.social-links li a i{
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #446d9c;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    text-align: center;
+}
+
+#social-links-heading{
+    font-family: "Nunito", sans-serif;
+    text-align: left;
+    padding-top: 20px;
+    color: #2098d1;
+}
