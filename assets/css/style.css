@@ -287,6 +287,7 @@ mark{
 .rights{
     padding-left: 20px;
     padding-top: 20px;
+    color: #2098d1;
 }
 
 .social-links li a i{
@@ -325,4 +326,27 @@ mark{
 .social-links {
     text-align: center;
 }
+}
+
+
+
+/* -------------------------------------------------------------REGISTER PAGE */
+
+.registration h3{
+    padding-top: 20px;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    color: #2098d1;
+}
+
+.registration h5{
+    padding-top: 20px;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    color: #2098d1;
+}
+
+.forms{
+    display: inline-block;
+    text-align: center;
 }
