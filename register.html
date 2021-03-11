@@ -56,23 +56,72 @@
     </section>
     <!-- ---------------------------------------------------------register block--- -->
     <section>
-        <div class="row">
+        <div class="container-fluid">
+        <div class="row justify-content-center">
             <div class="col-12 registration">
                 <h3 > Register here and we will reach you with all details when it's your turn.</h3>
                 <h5> You can book for yourself as well as your closed ones with your contact details</h5>
             </div>
             <div class="col-12 forms">
+                <div class="labelblock">
+                    <form action="https://formdump.codeinstitute.net" method="post">
+                         <label for="query"> Are you registering for yourself? :</label>
+                             <select name="query" id="query">
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                             </select>
+                    </form>
+                </div>
+
+                <div class="labelblock">
+                    <form action="https://formdump.codeinstitute.net" method="post">
+                         <label for="Name">Name :</label>
+                        <input id="Name" type="text" name="Name">
+                    </form>
+                </div>
                 
-                <form action="https://formdump.codeinstitute.net" method="post">
-                    <label for="Name">Name</label>
-                    <input id="Name" type="text" name="Name">
-                </form>
-                
-                <form action="https://formdump.codeinstitute.net" method="post">
-                    <label for="Personal Number">Personal Number</label>
-                    <input id="Personal Number" type="number" name="Personal Number">
-                </form>
+                <div class="labelblock">
+                    <form action="https://formdump.codeinstitute.net" method="post">
+                         <label for="Personal Number">Personal Number :</label>
+                         <input id="Personal Number" type="number" name="Personal Number">
+                     </form>
+                </div>
+
+                <div class="labelblock">
+                     <form action="https://formdump.codeinstitute.net" method="post">
+                         <label for="email">Email :</label>
+                        <input id="email" type="email" name="email">
+                    </form>
+                </div>
+
+                <div class="labelblock">
+                     <form action="https://formdump.codeinstitute.net" method="post">
+                        <label for="telephone">Phone :</label>
+                        <input id="telephone" type="number" name="telephone">
+                    </form>
+                </div>
+
+                <div class="labelblock">
+                    <form action="https://formdump.codeinstitute.net" method="post">
+                        <label for="address">Address :</label>
+                        <input id="address" type="text" name="address">
+                    </form>
+                </div>
+
+                <div class="labelblock">
+                    <form>
+                        <label for="notes"> Additional Notes to us : </label>
+                        <!-- <br> -->
+                         <textarea id="notes" rows="10" cols="40" placeholder="Write if you have any chronic conditions or if using any medications "></textarea>
+                    </form>
+                </div>
+
+                <div class="labelblock">
+                    <button type="submit" id="registerbutton" class="button-xlarge pure-button">Register</button>
+                </div>
+
             </div>
+        </div>
         </div>
     </section>
        
@@ -84,11 +133,11 @@
 
     <footer>
         <div class="row justify-content-between">
-            <div class="col-md-3 rights">
+            <div class="col-md-4 rights">
                 <h6> Privacy policy</h6>
                 <p> All rights reserved @ Västragötaland regionen</p>
             </div>
-            <div class="col-md-3">
+            <div class=" col-md-3 col-lg-2">
                 <h6 id="social-links-heading">Social Media Links</h6>
                   <ul class="list-inline social-links inline-block">
                     <li class="list-inline-item">
