@@ -57,7 +57,7 @@
     <!-- ---------------------------------------------------------register block--- -->
     <section>
         <div class="container-fluid">
-        <div class="row ">
+         <div class="row ">
             <div class="col-12 registration">
                 <h3 > Register here and we will reach you with all details when it's your turn.</h3>
                 <h5> You can book for yourself as well as your closed ones with your contact details</h5>
@@ -74,6 +74,7 @@
                 </div>
                 
                 
+                <div class="small-screen-form">
                 <div>
                     <form action="https://formdump.codeinstitute.net" method="post">
                          <label for="Name">Name :</label>
@@ -110,29 +111,34 @@
                 </div>
 
                 <div >
-                    <form>
+                    <form class="d-sm-block d-none">
                         <label for="notes"> Additional Notes to us : </label>
                         <!-- <br> -->
-                         <textarea id="notes" rows="10" cols="40" placeholder="Write if you have any chronic conditions or if using any medications "></textarea>
+                         <textarea  id="notes" rows="10" cols="40" placeholder="Write if you have any chronic conditions or if using any medications "></textarea>
+                    </form>
+
+                    <form class="d-sm-none d-block">
+                        <label for="notes"> Additional Notes to us : </label>
+                        <br>
+                         <textarea  id="notes" rows="10" cols="34" placeholder="Write if you have any chronic conditions or if using any medications "></textarea>
                     </form>
                 </div>
                
 
                 <div>
-                    <form>
-                        <button type="submit" id="registerbutton" class="button-xlarge pure-button">Register</button>
+                    <form >
+                        <button type="submit" id="registerbutton" >Register</button>
                     </form>
+                </div>
                 </div>
 
             </div>
         
+         </div>
         </div>
-    </section>
-       
+    </section>  
 
-
-
-    </article> 
+</article> 
 
 
     <footer>

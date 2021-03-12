@@ -364,11 +364,10 @@ form {
 
 label{
   display: inline-block;
-  width: 175px;
-  text-align: right;  
+  width: 200px;
+  text-align: justify;
   font-family: "Quicksand", sans-serif;
   }​
-
 
 
 .forms input, textarea {   
@@ -386,7 +385,6 @@ input{
 
 #registerbutton{
    
-    position: absolute;
     margin-top: 250px;
     border: #7c878b;
     background-color: #2099d12d;
@@ -399,3 +397,31 @@ input{
     
 }
 
+@media(max-width:576px){
+
+    .forms{    
+    min-height: 800px; 
+    display: inline-block;
+    }
+
+    .small-screen-form form {
+       padding: 5px;       
+     }
+    
+    input{
+    width: 260px;
+    padding-top: 20px;
+    height: 20px;    
+    }
+
+.labelblock label{
+    width: 250px;
+}
+
+label{
+  display: inline;
+  width: 175px;
+  text-align: center;  
+  font-family: "Quicksand", sans-serif;  
+  }​
+}
