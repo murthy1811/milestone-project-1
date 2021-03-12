@@ -346,28 +346,32 @@ mark{
     color: #2098d1;
 }
 
- .forms{
-    
+ .forms{    
     padding-top: 50px;
     min-height: 800px;
     background-color: #e3f9fc;
-    /* text-align: center; */
+    width: 100%;
 }
 
 form {
  height: 50px;
- position: relative;
- 
+ text-align: center; 
 }
 
-label {
-  display: inline-block;
-  width: 375px;
-  text-align: right;
-}​
+.labelblock label{
+    width: 275px;
+}
 
-.labelblock input, textarea {
-   display: inline-block;
+label{
+  display: inline-block;
+  width: 175px;
+  text-align: right;  
+  font-family: "Quicksand", sans-serif;
+  }​
+
+
+
+.forms input, textarea {   
    vertical-align: top;
   }
 
@@ -375,11 +379,15 @@ input{
     width: 300px;
 }
 
+#query{
+    font-family: "Quicksand", sans-serif;
+}
+
 
 #registerbutton{
-    vertical-align: auto;
+   
+    position: absolute;
     margin-top: 250px;
-    margin-left:450px;
     border: #7c878b;
     background-color: #2099d12d;
     font-family: "Quicksand", sans-serif;
@@ -388,5 +396,6 @@ input{
     height: 50px;
     width: 175px;
     letter-spacing: 2px;
+    
 }
 
