@@ -423,5 +423,34 @@ label{
   width: 175px;
   text-align: center;  
   font-family: "Quicksand", sans-serif;  
-  }​
+}
+}
+
+/* -------------------------------------------------------------CONTACT PAGE */
+
+.contact{
+    text-align: center;
+    color: #2098d1;
+    padding: 20px;
+}
+
+#contactnote{
+    font-size: x-large;
+    font-family: "Quicksand", sans-serif;
+}
+
+.phone-email{
+    padding: 30px;
+    font-family: "Nunito", sans-serif;
+}
+
+@media(max-width:576px){
+    .phone-email{
+        text-align: center;
+         min-width: 200px;
+    }
+
+    .email{
+        padding-top: 20px;
+    }
 }
