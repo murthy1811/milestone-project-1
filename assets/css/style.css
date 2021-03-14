@@ -82,6 +82,8 @@
     letter-spacing: 2px;
 }
 
+
+
 @media(max-width:576px){
 
 .heroimage {
@@ -164,6 +166,11 @@
     letter-spacing: 2px;
     padding-bottom: 20px;
     }
+
+.advice-banner i{
+    color: #7c878b;
+    font-size: x-large;
+}
 
 .info-vaccine{
     padding-top: 10px;
@@ -453,4 +460,30 @@ label{
     .email{
         padding-top: 20px;
     }
+}
+
+/* -------------------------------------------------------------PRESS PAGE */
+
+.pressnote{
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    padding: 20px;
+    color: #2098d1;
+}
+
+.press-links{
+    text-align: left;
+    font-family: "Quicksand", sans-serif;
+    padding: 20px;
+    color: #2098d1;
+    font-size: large;
+    background-color: aliceblue;
+}
+
+.top-note-link{
+    color: #e47332;
+}
+
+.press-links li{
+    padding-bottom: 20px;
 }
