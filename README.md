@@ -28,7 +28,7 @@ The organisation, Västra Götaland - Regional district government body wants
 
 ## User stories
 
-AS an User ( aged above 18), I should be able to
+A an User ( aged above 18), I should be able to
 
 1. Get answers for all my concerns regarding COVID-19 Vaccine
 2. Reach the authorities by various means via email, telephone, or direct contact to get answers
@@ -98,25 +98,16 @@ Footer contains the social media info.
 
 # Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. Home page:
+The homepage will be a landing page for the user. It should invoke the feeling of healing and reassurance.
 
-The homepage will be a landing page for the user and give them the warm welcome feeling.
+Home : Gives info on when one can get vaccinated, How vaccines work and If COVID vaccine is safe or not. Also, provided the locations to directly meet at Vaccination centres.Footer gives the social media links.
 
-About:
+Register : Page gives info to user on registration.
 
-This section covers a brief overview of what the illness is, the symptoms and triggerpoints.
+Contact : Provides info on reaching authorities on phone, email and physical locations as well.
 
-Services:
+Press : Press page gives the links to the latest information available regarding Vaccines.
 
-Highlighting the services the charity currently offers.
-
-Our Team:
-
-A quick overview of who the team is and what their background is.
-
-Volunteer / Contact Page:
-
-A volunteer and contact page for users to be able to get intouch with the team if needs be.
 
 ## Existing Features
 
@@ -133,13 +124,16 @@ A chat window probably to provide the user with immediate help regarding the que
 
 # Technologies Used
 
-
 - HTML5
 - CSS3
 - Bootstrap v4.3.1
 - Google Chrome Dev tools for debugging
 - Google Light house for audits
 - [JQuery](https://jquery.com) The project uses **JQuery** to simplify DOM manipulation.
+
+#Testing
+
+I have tested my code with responsive design, using chrome dev tools.
 
 
 
