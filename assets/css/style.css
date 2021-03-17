@@ -356,46 +356,63 @@ mark{
     color: #2098d1;
 }
 
- .forms{    
+.forms{    
     padding-top: 50px;
-    min-height: 800px;
-    background-color: #e3f9fc;
-    width: 100%;
+    min-height: 700px;
+    background-color: #e3f9fc;  
+    text-align: center;  
 }
 
-form {
- height: 50px;
- text-align: center; 
-}
-
-.labelblock label{
-    width: 275px;
-}
-
-label{
+.small-screen-form label{
   display: inline-block;
-  width: 200px;
-  text-align: justify;
+  width: 205px;
+  text-align: left;
   font-family: "Quicksand", sans-serif;
+  padding: 15px;
+  margin: 0;
   }​
 
-
-.forms input, textarea {   
-   vertical-align: top;
-  }
-
-input{
-    width: 300px;
+.labelblock label{
+  width: 300px;
+  display: inline-block;
+  width: 205px;
+  text-align: left;
+  font-family: "Quicksand", sans-serif;
+  padding: 15px;
+  margin: 0;
 }
 
-#query{
+.aligntop label{
+  width: 205px;
+  display: inline-block;
+  width: 205px;
+  text-align: justify;
+  font-family: "Quicksand", sans-serif;
+  padding: 15px;
+  margin: 0;
+}
+
+.small-screen-form{
+    padding-top: 10px;
+}
+
+
+.aligntop textarea{
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+#query, #notes, #notes2{
     font-family: "Quicksand", sans-serif;
 }
 
+.forms input{
+    text-align: center;
+    width: 300px;
+}
 
-#registerbutton{
-   
-    margin-top: 250px;
+#registerbutton{   
+    margin-top: 25px;
     border: #7c878b;
     background-color: #2099d12d;
     font-family: "Quicksand", sans-serif;
@@ -404,35 +421,60 @@ input{
     height: 50px;
     width: 175px;
     letter-spacing: 2px;
-    
+    text-align: center;
+    margin-bottom: 40px;
 }
+
+
 
 @media(max-width:576px){
 
-    .forms{    
-    min-height: 800px; 
-    display: inline-block;
-    }
-
-    .small-screen-form form {
-       padding: 5px;       
-     }
-    
-    input{
-    width: 260px;
-    padding-top: 20px;
-    height: 20px;    
-    }
-
-.labelblock label{
-    width: 250px;
+.registration h3{
+    font-size: large;
 }
 
-label{
+.registration h5{
+    font-size: medium;
+}
+
+.forms{
+    padding-top: 25px;
+}
+
+.small-screen-form{
+    padding-top: 20px;
+}
+
+.small-screen-form label{
+    float: left;   
+    padding: 0;
+    margin: 0;
+}
+
+.aligntop label{
+    float: left;   
+    padding: 0;
+    margin: 0;
+}
+
+.aligntop textarea{
+  margin-top: 0;
+}
+
+.small-screen-form input{
+    width: 260px;
+    height: 30px;    
+    margin-bottom: 10px;
+}
+
+.forms label{
   display: inline;
-  width: 175px;
-  text-align: center;  
-  font-family: "Quicksand", sans-serif;  
+  width: 175px;   
+  font-family: "Quicksand", sans-serif; 
+}
+
+#registerbutton{   
+    margin-bottom: 20px;
 }
 }
 
