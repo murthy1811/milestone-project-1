@@ -246,13 +246,17 @@ mark{
 
 .timing-note{
     padding-top: 10px;
-    margin: auto;
-    
+    margin: auto;    
     text-align: center;
     font-family: "Nunito", sans-serif;
     font-weight: 300;
     letter-spacing: 2px;
     color: cornflowerblue;
+}
+
+.timing-note p{
+    font-size: 1.25em;
+    font-weight: bolder;
 }
 
 .addresses{
@@ -263,8 +267,9 @@ mark{
     letter-spacing: 2px;
 }
 
-.addresses h5{
-    color: darkcyan;
+.addresses p{
+    font-size: 1.25em;
+    margin-bottom: 0;
 }
 
 /* #googlemaps{
@@ -282,7 +287,7 @@ mark{
     padding: 10px;
 }
 
-.location h4, h5{
+.location h4, p{
     font-size: 1rem;
 }
 }
