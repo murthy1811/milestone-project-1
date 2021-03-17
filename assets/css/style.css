@@ -454,14 +454,33 @@ label{
     font-family: "Nunito", sans-serif;
 }
 
+.phone-email a{
+    font-size: x-large;     
+}
+
+.phone-email p{
+    font-size: 125%;
+}
+
+
+
 @media(max-width:576px){
     .phone-email{
         text-align: center;
-         min-width: 200px;
+        min-width: 200px;
     }
+ .phone-email a{
+    font-size: large;     
+}
 
+.phone-email p{
+    font-size: 110%;
+}
     .email{
         padding-top: 20px;
+        text-align: center;
+        word-wrap: break-word;              
+      
     }
 }
 
@@ -490,3 +509,5 @@ label{
 .press-links li{
     padding-bottom: 20px;
 }
+
+
