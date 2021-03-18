@@ -2,7 +2,9 @@
 
 
 /* ---------------------------------------------------------------------------header */
-    
+
+
+
 .logo{
     background: url("../images/site-images/vastra-gotaland-logo.jpeg");
     background-position: left;
@@ -47,6 +49,13 @@
 
 .navbar-expand-lg{
     float: none;
+}
+
+.navbar-collapse{
+    width: 85vw;
+    /* background-color: #e3f9fc;
+    opacity: 0.9; */
+   
 }
 
 
@@ -368,8 +377,7 @@ mark{
 
 .labelblock label{
     width: 300px;
-    display: inline-block;
-    width: 205px;
+    display: inline-block;    
     text-align: left;
     font-family: "Quicksand", sans-serif;
     padding: 15px;
@@ -378,8 +386,7 @@ mark{
 
 .aligntop label{
   width: 205px;
-  display: inline-block;
-  width: 205px;
+  display: inline-block;  
   text-align: justify;
   font-family: "Quicksand", sans-serif;
   padding: 15px;
