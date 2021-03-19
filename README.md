@@ -171,7 +171,7 @@ Noticed several errors of sizing fonts to the responsive design and fixed them b
 
 The current deployment of this project is done using gitpod.
 
-Code is written in gitpod interface. git commands - add, commit, push are of great help
+Code is written in gitpod interface. git commands - add, commit, push are of great help to push the code to repository in github.
 
 The deployed website is hosted on github pages for easy viewing without having to clone or fork the repository to view the running website.
 Deployment was done by clicking on the settings tab on my repository then navigating to "Github pages"
