@@ -1,7 +1,7 @@
 
 # COVID-19 Vaccine 
 
-This static website, for local district government bosy is currently designed for giving out information about COVID-19 vaccine and registration for the users who want to take the Vaccine.
+This static website, for local district government body is currently designed for giving out information about COVID-19 vaccine and registration for the users who want to take the Vaccine.
 Target audience are all the users ( aged above 18) who wish to vaccinate themselves and their loved ones.
 
 This project should guide the user on his/her concerns about the vaccine and information on the locations where one can get vaccinated and ways to reach the authorities.
@@ -35,7 +35,7 @@ A an User ( aged above 18), I should be able to
 3. Easily navigate and get info on when and where the Vaccination happens.
 4. Register for my family and loved ones, who cannot do themselves.
 5. Get clear information on when I can take the Vaccine.
-6. Any tips and advice before I take the Vaccine
+6. Latest news information on Vaccine functions and its side effects
 
 ## Developer and Business stories
 
@@ -77,22 +77,29 @@ Footer contains the social media info.
 
 #### Wireframes
 
-[Main page_Mobile wireframe] (assets/images/wireframe/Milestone 1_mobile wireframe.png)
-[Main page_Desktop wireframe] (assets/images/wireframe/Milestone 1_Desktop wireframe.png)
-[Main page_Tablet wireframe] (assets/images/wireframe/Milestone 1_Tablet Wireframe.png)
+[Main page Mobile wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_mobile%20wireframe.png)
 
-[Registration page_Mobile wireframe] (assets/images/wireframe/Milestone 1_mobile  wireframe _registration page.png)
-[Registration page_Desktop wireframe] (assets/images/wireframe/Milestone 1_Desktop wireframe _registration page.png)
-[Registration page_Tablet wireframe] (assets/images/wireframe/Milestone 1_Tab wireframe _registration page.png)
+[Main page Desktop wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_Desktop%20wireframe.png)
 
-[Contact page_Mobile wireframe] (assets/images/wireframe/Milestone 1_mobile  wireframe _contact page.png)
-[Contact page_Desktop wireframe] (assets/images/wireframe/Milestone 1_Desktop wireframe _contact page.png)
-[Contact page_Tablet wireframe] (assets/images/wireframe/Milestone 1_Tab wireframe _contact page.png)
+[Main page Tablet wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_Tablet%20Wireframe.png)
 
-[Press info page_Mobile wireframe] (assets/images/wireframe/Milestone 1_mobile  wireframe _press info page.png)
-[Press info page_Desktop wireframe] (assets/images/wireframe/Milestone 1_Desktop wireframe _press info page.png)
-[Press info page_Tablet wireframe] (assets/images/wireframe/Milestone 1_Tablet wireframe _press info page.png)
+[Register page Mobile wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_mobile%20%20wireframe%20_registration%20page.png)
 
+[Register page Desktop wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_Desktop%20wireframe%20_registration%20page.png)
+
+[Register page Tablet wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_Tab%20wireframe%20_registration%20page.png)
+
+[Contact page Mobile wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_mobile%20%20wireframe%20_contact%20page.png)
+
+[Contact page Desktop wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_Desktop%20wireframe%20_contact%20page.png)
+
+[Contact page Tablet wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_Tab%20wireframe%20_contact%20page.png)
+
+[Press page Mobile wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_mobile%20%20wireframe%20_press%20info%20page.png)
+
+[Press page Desktop wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_Desktop%20wireframe%20_press%20info%20page.png)
+
+[Press page Tablet wireframe](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/wireframe/Milestone%201_Tablet%20wireframe%20_press%20info%20page.png)
 
 
 
@@ -111,16 +118,16 @@ Press : Press page gives the links to the latest information available regarding
 
 ## Existing Features
 
-Nav bar facilitates the user to naviagte between the pages for contact, Registration and press information regarding COVID-19 vaccine.
-Navbar in mobile is burger type
-Smooth scrolling for better UX.
-Registration for Vaccine (not currently linked to a mailing server will be implemented on next release).
+- Nav bar facilitates the user to naviagte between the pages for contact, Registration and press information regarding COVID-19 vaccine.
+- Navbar in mobile is burger type (toggler icon)
+- Smooth scrolling for better UX.
+- Registration for Vaccine (not currently linked to a mailing server will be implemented on next release).
 
 ## Features Left to Implement
 
-Login secion by the user through his personal number, and to see his status on Vaccination.
-Mail link up for contact form and subscription to news letter.
-A chat window probably to provide the user with immediate help regarding the queries on Vaccine.
+- Login section by the user through his personal number, and to see his status on Vaccination.
+- Mail link up for contact form and subscription to news letter.
+- A chat window probably to provide the user with immediate help regarding the queries on Vaccine.
 
 # Technologies Used
 
@@ -131,12 +138,51 @@ A chat window probably to provide the user with immediate help regarding the que
 - Google Light house for audits
 - [JQuery](https://jquery.com) The project uses **JQuery** to simplify DOM manipulation.
 
-#Testing
+# Testing
 
-I have tested my code with responsive design, using chrome dev tools.
+### Planning
+
+Plan is to test the site manually and using the Google Lighthouse to evaluate the overall performance and chrome devtools to test each layout.
+
+Devices tested for responsive design are iphone5/SE, iphone6/7/8/plus, Ipad, ipadpro, Galaxy S5
+
+Screen testing done for the screens 24" computer screen (1920 x 1080), Laptop 14".
+
+### Implementation
+
+Plan is to test the site based on user stories. If the user stories are working as per the intention on all devices , then the testing is 
+successful. Identified challenges and bugs while writing the code and how this is solved is writtten in bugs section.
+
+I used devtools many times to test the intention, and if it does not work out, I tried to adjust the code in devtools and achieved the 
+intended result by copying the changed code to the html files.
+
+I used Lighthouse to check if the best practices are used or not. Initially I am not sure how to improve the results but tried to 
+use google and made changes in the code to achieve the better results.
+
+### Results 
+
+There were troubles intially to make the navbar toggler icon work in mobiles. I slowly studied the navbar classes functioning in Bootstrap
+and override the classes and adjusted to my requirments and achieved the intended results. Again, many times devtools are a great help.
+
+Noticed several errors of sizing fonts to the responsive design and fixed them by writing responsive design in CSS
 
 
+### Deployment
 
+The current deployment of this project is done using gitpod.
+
+Code is written in gitpod interface. git commands - add, commit, push are of great help
+
+The deployed website is hosted on github pages for easy viewing without having to clone or fork the repository to view the running website.
+Deployment was done by clicking on the settings tab on my repository then navigating to "Github pages"
+Changing the source from none to master, this then deployed a link that can be found here : https://nemixu.github.io/Milestone1/
+
+If you wish to run this project locally.
+
+1. Click clone / download
+2. Choose your preffered method (Zip or github desktop)
+3. Open in your preffered IDE
+4. Run on local server
 
 **This project is for educational use only and was created for the Code Institute Module of User Centric front end development**
 
