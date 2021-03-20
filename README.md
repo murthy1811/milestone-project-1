@@ -8,9 +8,8 @@ This project should guide the user on his/her concerns about the vaccine and inf
 
 ## Showcase
 
-A deployed link to the website can be found [here](https://nemixu.github.io/Milestone1/).
+A deployed link to the website can be found [here](https://murthy1811.github.io/Milestone-project-1/).
 
-![Preivew](https://github.com/nemixu/Milestone1/blob/master/assets/images/wireframes/laptop%20landing%20page.png)
 
 
 # UX
@@ -148,6 +147,10 @@ Devices tested for responsive design are iphone5/SE, iphone6/7/8/plus, Ipad, ipa
 
 Screen testing done for the screens 24" computer screen (1920 x 1080), Laptop 14".
 
+The entire code is checked in validators and errors identified are solved and explained in bugs section
+
+Browsers tested are Microsoft Edge, and Google Chrome.
+
 ### Implementation
 
 Plan is to test the site based on user stories. If the user stories are working as per the intention on all devices , then the testing is 
@@ -197,31 +200,57 @@ The current deployment of this project is done using gitpod.
 Code is written in gitpod interface. git commands - add, commit, push are of great help to push the code to repository in github.
 
 The deployed website is hosted on github pages for easy viewing without having to clone or fork the repository to view the running website.
-Deployment was done by clicking on the settings tab on my repository then navigating to "Github pages"
-Changing the source from none to master, this then deployed a link that can be found here : https://nemixu.github.io/Milestone1/
 
-If you wish to run this project locally.
+To deploy this page to GitHub pages from its GitHub repository, the following steps were taken
+1. Log into GitHub
+2. From the list of repositories on the screen , select murthy1811/Milestone-project-1
+3. From the menu items near the top of the page, select Settings
+4. Scroll down to the GitHub Pages section
+5. Under Source click the drop-down menu labelled None and select Master Branch and save
+6. On Saving, the page will be refreshed and the website is now deployed
+7. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
 
-1. Click clone / download
-2. Choose your prefered method (Zip or github desktop)
-3. Open in your preffered IDE
-4. Run on local server
+### How to run this project locally
+
+To clone this project into Gitpod you will need a Github account. [Create a Github account here] (https://www.github.com)
+
+Follow below steps
+
+1. Install the Gitpod browser extensions for Chrome.
+2. After Installation, restart the browser
+3. Log into Gitpod with your github account
+4. Navigate to the Project GitHub repository
+5. Click the green "Gitpod" button in the top right corner of the repository
+6. This will trigger a new gitpod workspace to be created from the code in the github where you can work locally.
+
+To work on the project code within a local IDE such as VSCode, Pycharm etc:
+
+1. Follow this link to the [Project GitHub repository](
+2. Under the repository name, click "Clone or download"
+3. In the Clone with HTTPs section, copy the clone URL for the repository
+4. In your local IDE open the terminal
+5. Change the current working directory to the location where you want the cloned directory to be made
+6. Type "git clone", and then paste the URL you copied in Step 3.
+
+   git clone https://github.com/USERNAME/REPOSITORY
+
+7. Press Enter. Your local clone will be created.
 
 ## Bugs
 
 1. First hurdle in developing this site came to me to fit in the logo of vastra gotaland. The image is unable to adjust to the responsive design
    for different devices. Rather than writing more code in html, I choose to take the logo as background and adjust for different screens using
-   bootstrap.
+   bootstrap and called media queries for different screen sizes
 
 2. Further, this gave me trouble in while coding for toggler icon for mobiles. The toggler icon  while expanding, the menu items were floating to 
    left and overflowed out of screen. By writing the correct code for bootstrap for navbar and adjusting classes I managed to solve this.
-   I used more classes like mr-auto, mr-2 and navbar-collapse class width is adjsuted to suit the needs.
+   I used more classes like mr-auto, mr-2 and navbar-collapse class width is adjusted to suit the needs.
 
 3. I noticed after coding, that Home menu is not visible on ipad. Then I wrote the media screen query (max-width: 992px) and (min-width: 768px)  for different screens, which involved
    ipad as well. This solved the issue.
 
 4. Initially I want to the expanded menu on mobiles to occupy the space above hero image. I could not solve this first. Later, I managed to solve
-    using stackoverflow.com website help but I noticed that instead of menu occupying above the image, it is clean to push the content down.
+    using stackoverflow.com website help by using fixed-top command in html but I noticed that instead of menu occupying above the image, it is clean to push the content down.
     So, later I kept the original code.
 
 5. Images in info section of the index page, were distorted initially. During the mentor mid project review, a quick suggestion by mentor 
@@ -240,6 +269,10 @@ If you wish to run this project locally.
 10. Added telephone and email links in contact page by href=tel and href=mailto: options as per mentor recommendation
 
 11. In location section, for index and contact pages, intially I used only h4 and h5 elements , and as per mentor recommendation , I changed it to h4 and properly
+
+12. While code is checked in validators, there is an parse error and the same code is written again and deleted the old one. This solved the issue
+
+13. Wrong usage of p element is identified when ul element is placed with in p. This error is fixed.
 
 ## Credits
 
@@ -307,18 +340,6 @@ Readme document is heavily influenced from Code institute guidance as well as St
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 **This project is for educational use only and was created for the Code Institute Module of User Centric front end development**
 
 **Created by Murthy Valavala**
-
