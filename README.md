@@ -10,7 +10,7 @@ This project should guide the user on his/her concerns about the vaccine and inf
 
 A deployed link to the website can be found [here](https://murthy1811.github.io/Milestone-project-1/).
 
-Preview of the site is found here 
+Preview of the site is found [here](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/snapshots/landing-page.JPG). 
 
 
 
@@ -160,11 +160,11 @@ successful. Identified challenges and bugs while writing the code and how this i
 
 I tested if i can navigate to all required pages to fulfill the user story on all devices using devtools.
 
-I tested if i can able to call and email through the website as per user story
+I tested if i can able to call and email through the website as per user story. Preview [here](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/snapshots/reach-to-authorities.JPG). 
 
-I tested if the information regarding the vaccine is visible and readable to the user on all devices
+I tested if the information regarding the vaccine is visible and readable to the user on all devices Preview [here](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/snapshots/information-on-vaccine.JPG).
 
-I made sure on registration page, a simple query is asked if an user is registering for himself or someone else. and is seen in all devices.
+I made sure on registration page, a simple query is asked if an user is registering for himself or someone else. and is seen in all devices. Preview [here](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/snapshots/register-snap.JPG).
 
 I made sure the information regarding when one can get vaccinated on home page as well as on registration page, which is basically information
  that authorities will reach the user soon after registration.
@@ -188,11 +188,11 @@ Noticed several errors of sizing fonts to the responsive design and fixed them b
 
 Intial score of the site from google light house is as below
 
-Performance : 84% , Accesibility : 93%, Best practices :87% SEO: 90%
+Performance : 84% , Accesibility : 93%, Best practices :87% SEO: 90%  Initial score preview [here](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/snapshots/Intial%20light%20house%20score.PNG).
 
 Final score after optimization like resizing images, adding rel=noopener attribute to the a tags with target=_blank, and also added meta description
 
-Performance : 89% , Accesibility : 93%, Best practices :93% SEO: 100%
+Performance : 89% , Accesibility : 93%, Best practices :93% SEO: 100% . Final score preview [here](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/snapshots/Final%20light%20house%20score.PNG).
 
 
 ### Deployment
