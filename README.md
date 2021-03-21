@@ -10,6 +10,8 @@ This project should guide the user on his/her concerns about the vaccine and inf
 
 A deployed link to the website can be found [here](https://murthy1811.github.io/Milestone-project-1/).
 
+Preview of the site is found here 
+
 
 
 # UX
