@@ -29,7 +29,7 @@ The organisation, Västra Götaland - Regional district government body wants
 
 ## User stories
 
-A an User ( aged above 18), I should be able to
+As an User ( aged above 18), I should be able to
 
 1. Get answers for all my concerns regarding COVID-19 Vaccine
 2. Reach the authorities by various means via email, telephone, or direct contact to get answers
@@ -197,7 +197,7 @@ Performance : 89% , Accesibility : 93%, Best practices :93% SEO: 100% . Final sc
 
 ### Deployment
 
-The current deployment of this project is done using gitpod.
+The current deployment of this project is done using github.
 
 Code is written in gitpod interface. git commands - add, commit, push are of great help to push the code to repository in github.
 
@@ -234,7 +234,7 @@ To work on the project code within a local IDE such as VSCode, Pycharm etc:
 5. Change the current working directory to the location where you want the cloned directory to be made
 6. Type "git clone", and then paste the URL you copied in Step 3.
 
-   git clone https://github.com/USERNAME/REPOSITORY
+   git clone https://github.com/murthy1811/Milestone-project-1.git
 
 7. Press Enter. Your local clone will be created.
 
@@ -245,7 +245,7 @@ To work on the project code within a local IDE such as VSCode, Pycharm etc:
    bootstrap and called media queries for different screen sizes
 
 2. Further, this gave me trouble in while coding for toggler icon for mobiles. The toggler icon  while expanding, the menu items were floating to 
-   left and overflowed out of screen. By writing the correct code for bootstrap for navbar and adjusting classes I managed to solve this.
+   right and overflowed out of screen. By writing the correct code for bootstrap for navbar and adjusting classes I managed to solve this.
    I used more classes like mr-auto, mr-2 and navbar-collapse class width is adjusted to suit the needs.
 
 3. I noticed after coding, that Home menu is not visible on ipad. Then I wrote the media screen query (max-width: 992px) and (min-width: 768px)  for different screens, which involved
@@ -278,62 +278,47 @@ To work on the project code within a local IDE such as VSCode, Pycharm etc:
 
 ## Credits
 
-Main logo of vastra gotaland regionen is taken from their original website and Västra Götaland Regionen is the rightful owner for the logo
+- Main logo( vastra-gotaland-logo.jpeg) of vastra gotaland regionen is taken from their original website and Västra Götaland Regionen is the rightful owner for the logo
 and I have used their logo only for educational purposes for my Dipoma at Code Institute.
 
-Links used in Press page were from WHO website and thelocal.se 
+- Links used in Press page were from WHO website and thelocal.se 
 
-All my images that were used during the development of this site were as below with credits.
+- All my images that were used during the development of this site were as below with credits.
 
-Hero image
+    1.heroimage.jpg
 
-coronavirus-4914026_1920_Image by <a>href=httpspixabay.comuserstumisu-148124utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4914026Tumisua from a href=httpspixabay.comutm_source=li
-</a> 
+     coronavirus-4914026_1920_Image by <a>href=httpspixabay.comuserstumisu-148124utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4914026Tumisua from a href=httpspixabay.comutm_source=li
+      </a> 
 
-Corono vaccine image
+    2.corono-vaccine.jpg
 
-pexels-nataliya-vaitkevich-5863400_Photo by Nataliya Vaitkevich from Pexels
+     pexels-nataliya-vaitkevich-5863400_Photo by Nataliya Vaitkevich from Pexels
 
+    3.coronavirus-vaccine.jpg
 
-vaaccinebottle image
+    <a href='https://www.freepik.com/photos/cartoon'>Cartoon photo created by crowf - www.freepik.com</a>
 
-vaccine-5926664_1920_Image by <a>href=httpspixabay.comuserstorstensimon-5039407utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5926664torstensimona from a href=httpspixabay.comutm_</a>
+    4.vaccine-bottle.jpg
 
+    vaccine-5926664_1920_Image by <a>href=httpspixabay.comuserstorstensimon-5039407utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5926664torstensimona from a href=httpspixabay.comutm_</a>
 
-vaccine works image
+   
+- Fontawesome was used for the favicions throughout the page.
 
-Photo by Artem Podrez from Pexels
-
-
-vaccine works image2 from freepik
-<a href='https://www.freepik.com/photos/medical'>Medical photo created by freepik - www.freepik.com</a>
-
-image centre
-https://www.w3schools.com/howto/howto_css_image_center.asp
+    https://fontawesome.com/
 
 
-freepik corona virus vaccine funnyimage
-<a href='https://www.freepik.com/photos/cartoon'>Cartoon photo created by crowf - www.freepik.com</a>
+- Bootstrap is used thorugh out the code specifically to define the columns, and navbar menu.
 
-vaccibnebottle and doctor hand
-<a href='https://www.freepik.com/photos/hand'>Hand photo created by freepik - www.freepik.com</a>
+- https://stackoverflow.com/ is very helpful in answering various questions popped up while making the code. 
 
-fontawesome was used for the favicions throughout the page.
+- Original wireframes were created with balasamiq
 
-https://fontawesome.com/
-
-
-Bootstrap is used thorugh out the code specifically to define the columns, and navbar menu.
-
-https://stackoverflow.com/ is very helpful in answering various questions popped up while making the code. 
-
-Original wireframes were created with balasamiq
-
-Readme document is heavily influenced from Code institute guidance as well as Stephen Seagrave video for MS1 preparation that is posted in slack.
+- Readme document is heavily influenced from Code institute guidance as well as Stephen Seagrave video for MS1 preparation that is posted in slack.
 
 
 
-### Acknowledgements
+## Acknowledgements
 
 - I would like to Acknowledge Excellence Ilesanmi for his review on the project and giving feedback and changes to be made.
 - Stephen Seagrave for his MS1 video.
