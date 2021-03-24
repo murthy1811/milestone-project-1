@@ -1,30 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&family=Quicksand:wght@300;500&display=swap');
 
-
 /* ---------------------------------------------------------------------------header */
 
-
-
-.logo{
+.logo {
     background: url("../images/site-images/vastra-gotaland-logo.jpeg");
     background-position: left;
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat;
     background-size: contain;
     background-origin: content-box;
     padding-top: 10px;
     height: 100px;
-   }
+}
 
-.menuitem li{
-    margin: 15px;    
+.menuitem li {
+    margin: 15px;
     display: inline-block;
 }
 
-.navbar-light .navbar-nav .nav-link{
-    color: #2098d1;    
+.navbar-light .navbar-nav .nav-link {
+    color: #2098d1;
 }
 
-.navbar {    
+.navbar {
     float: right;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -32,48 +29,40 @@
     font-weight: 400;
 }
 
-@media(max-width:576px){
-
-.logo{
-    height:50px;
-    background-position: left;
-    background-repeat: no-repeat;  
-    background-size: contain;
-    background-origin: content-box;
-    padding-top: 10px;
+@media(max-width:576px) {
+    .logo {
+        height: 50px;
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-origin: content-box;
+        padding-top: 10px;
     }
-
-.menuitem li{
-    margin: 0;
-}
-
-.navbar-expand-lg{
-    float: none;
-}
-
-.navbar-collapse{
-    width: 85vw;
-      
-}
-
-
+    .menuitem li {
+        margin: 0;
+    }
+    .navbar-expand-lg {
+        float: none;
+    }
+    .navbar-collapse {
+        width: 85vw;
+    }
 }
 
 
 /* ---------------------------------------------------------------------------hero image */
 
-
 .heroimage {
-    background: url("../images/site-images/heroimage.jpg") ;
+    background-image: url("../images/site-images/heroimage.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin: 0;
     height: 700px;
-    margin-top: 5px;    
+    margin-top: 5px;
 }
 
-.mainnote{
+.mainnote {
     font-family: "Quicksand", sans-serif;
     font-size: 90px;
     font-weight: 300;
@@ -81,102 +70,94 @@
     padding-top: 100px;
     padding-left: 75px;
     text-transform: uppercase;
-    color: #bfc8db;
+    color: #ffffff;
     letter-spacing: 2px;
 }
 
-
-
-@media(max-width:576px){
-
-.heroimage {
-    background: url("../images/site-images/heroimage.jpg") ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 0;
-    height: 200px;
-   
+@media(max-width:576px) {
+    .heroimage {
+        background: url("../images/site-images/heroimage.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0;
+        height: 200px;
+    }
+    .mainnote {
+        font-family: "Quicksand", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: left;
+        padding-top: 40px;
+        padding-left: 10px;
+        text-transform: uppercase;
+        color: #ffffff;
+        line-height: 25px;
+        letter-spacing: 2px;
+    }
 }
 
-.mainnote{
-    font-family: "Quicksand", sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    text-align: left;
-    padding-top: 50px;
-    padding-left: 10px;
-    text-transform: uppercase;
-    color: #bfc8db;
-    line-height: 25px;
-    letter-spacing: 2px;
-}
-}
-
-@media only screen and (max-width: 992px) and (min-width: 768px)  {
-
-    .menuitem li{
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    .menuitem li {
         margin: 8px;
     }
-
     .heroimage {
-    background: url("../images/site-images/heroimage.jpg") ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 0;
-    height: 450px;
-    margin-top: 5px;
-}
-
-.mainnote{
-    font-family: "Quicksand", sans-serif;
-    font-size:50px;
-    font-weight: 500;
-    text-align: left;
-    padding-top: 100px;
-    padding-left: 10px;
-    text-transform: uppercase;
-    color: #bfc8db;
-  }
+        
+       background-image:  url("../images/site-images/heroimage.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0;
+        height: 450px;
+        margin-top: 5px;
+    }
+    .mainnote {
+        font-family: "Quicksand", sans-serif;
+        font-size: 50px;
+        font-weight: 500;
+        text-align: left;
+        padding-top: 80px;
+        padding-left: 10px;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
 }
 
 
 /* -------------------------------------------------------------information section */
 
-.bg-color-first{
+.bg-color-first {
     background-color: rgba(171, 208, 233, 0.452);
 }
 
-.bg-color-second{
-    background-color: rgb(227, 217, 243,0.5);
+.bg-color-second {
+    background-color: rgb(227, 217, 243, 0.5);
 }
 
-.bg-color-third{
+.bg-color-third {
     background-color: rgba(171, 208, 233, 0.452);
 }
 
-
-.advice-banner{
+.advice-banner {
     text-align: center;
     color: #d17e20;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding-bottom: 20px;
-    }
+}
 
-.advice-banner i{
+.advice-banner i {
     color: #7c878b;
     font-size: x-large;
 }
 
-.info-vaccine{
+.info-vaccine {
     padding-top: 10px;
     font-family: "Quicksand", sans-serif;
     background-color: aliceblue;
 }
 
-.info-vaccine h4{
+.info-vaccine h4 {
     font-family: "Nunito", sans-serif;
     text-transform: uppercase;
     color: #2098d1;
@@ -186,68 +167,61 @@
     letter-spacing: 2px;
 }
 
-.info-vaccine ul{
-  
+.info-vaccine ul {
     padding-top: 20px;
 }
 
-.info-image{
+.info-image {
     display: inline-block;
     text-align: center;
-    
 }
 
-.info-image img{   
-    border-radius: 25px;   
-    object-fit: cover;    
+.info-image img {
+    border-radius: 25px;
+    object-fit: cover;
 }
 
-.alignment-para p{
-   text-align: center;
-   padding-top: 10px;
-   
+.alignment-para p {
+    text-align: center;
+    padding-top: 10px;
 }
 
 .btn-success {
     color: #fff;
     background-color: #e47332;
     border-color: #e47332;
-    
 }
 
-
-
-mark{
+mark {
     background-color: #e3f9fc;
 }
 
-.detail-info p{
-   height: 10px;     
-
+.detail-info p {
+    height: 10px;
 }
 
-@media only screen and (max-width: 992px) and (min-width: 768px)  {
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    .info-image img {
+        border-radius: 25px;
+        max-width: 200px;
+        max-height: 150px;
+    }
+}
 
-    .info-image img{   
-    border-radius: 25px;
-    max-width: 200px;
-    max-height: 150px;
-}
+@media only screen and (max-width: 576px) {
+    .info-image img {
+        border-radius: 25px;
+        max-width: 200px;
+        max-height: 150px;
+    }
 }
 
-@media only screen and (max-width: 576px){
-     .info-image img{   
-    border-radius: 25px;
-    max-width: 200px;
-    max-height: 150px;
-}
-}
 
 /* -------------------------------------------------------------locations info */
 
-.timing-note{
+.timing-note {
     padding-top: 10px;
-    margin: auto;    
+    margin: auto;
     text-align: center;
     font-family: "Nunito", sans-serif;
     font-weight: 300;
@@ -255,12 +229,12 @@ mark{
     color: cornflowerblue;
 }
 
-.timing-note p{
+.timing-note p {
     font-size: 1.25em;
     font-weight: bolder;
 }
 
-.addresses{
+.addresses {
     padding: 20px;
     text-align: center;
     background-color: rgba(171, 208, 233, 0.452);
@@ -268,40 +242,36 @@ mark{
     letter-spacing: 2px;
 }
 
-.addresses p{
+.addresses p {
     font-size: 1.25em;
     margin-bottom: 0;
 }
 
-/* #googlemaps{
-    width: 100%;
-} */
-
-.location h4{
+.location h4 {
     text-transform: uppercase;
     color: darkgreen;
 }
 
-@media(max-width:576px){
-
-.location{
-    padding: 10px;
+@media(max-width:576px) {
+    .location {
+        padding: 10px;
+    }
+    .location h4,
+    p {
+        font-size: 1rem;
+    }
 }
 
-.location h4, p{
-    font-size: 1rem;
-}
-}
 
 /* -------------------------------------------------------------FOOTER */
 
-.rights{
+.rights {
     padding-left: 20px;
     padding-top: 20px;
     color: #2098d1;
 }
 
-.social-links li a i{
+.social-links li a i {
     width: 32px;
     height: 32px;
     padding: 12px 0;
@@ -318,99 +288,97 @@ mark{
     text-align: center;
 }
 
-#social-links-heading{
+#social-links-heading {
     font-family: "Nunito", sans-serif;
     text-align: left;
     padding-top: 20px;
     color: #2098d1;
 }
 
-@media(max-width:576px){
-    .rights{
+@media(max-width:576px) {
+    .rights {
         text-align: center;
     }
-
-#social-links-heading{
-    text-align: center;
+    #social-links-heading {
+        text-align: center;
+    }
+    .social-links {
+        text-align: center;
+    }
 }
-
-.social-links {
-    text-align: center;
-}
-}
-
 
 
 /* -------------------------------------------------------------REGISTER PAGE */
 
-.registration h3{
+.registration h3 {
     padding-top: 20px;
     text-align: center;
     font-family: "Quicksand", sans-serif;
     color: #2098d1;
 }
 
-.registration h5{
+.registration h5 {
     padding-top: 20px;
     text-align: center;
     font-family: "Nunito", sans-serif;
     color: #2098d1;
 }
 
-.forms{    
+.forms {
     padding-top: 50px;
     min-height: 700px;
-    background-color: #e3f9fc;  
-    text-align: center;  
+    background-color: #e3f9fc;
+    text-align: center;
 }
 
-.small-screen-form label{
-  display: inline-block;
-  width: 205px;
-  text-align: left;
-  font-family: "Quicksand", sans-serif;
-  padding: 15px;
-  margin: 0;
-}
-
-.labelblock label{
-    width: 300px;
-    display: inline-block;    
+.small-screen-form label {
+    display: inline-block;
+    width: 205px;
     text-align: left;
     font-family: "Quicksand", sans-serif;
     padding: 15px;
     margin: 0;
 }
 
-.aligntop label{
-  width: 205px;
-  display: inline-block;  
-  text-align: justify;
-  font-family: "Quicksand", sans-serif;
-  padding: 15px;
-  margin: 0;
+.labelblock label {
+    width: 300px;
+    display: inline-block;
+    text-align: left;
+    font-family: "Quicksand", sans-serif;
+    padding: 15px;
+    margin: 0;
 }
 
-.small-screen-form{
+.aligntop label {
+    width: 205px;
+    display: inline-block;
+    text-align: justify;
+    font-family: "Quicksand", sans-serif;
+    padding: 15px;
+    margin: 0;
+}
+
+.small-screen-form {
     padding-top: 10px;
 }
 
-
-.aligntop textarea{
+.aligntop textarea {
     vertical-align: top;
     margin-top: 10px;
 }
 
-#query, #notes, #notes2{
+#query,
+#notes,
+#notes2 {
     font-family: "Quicksand", sans-serif;
 }
 
-.forms input{
+.forms input {
     text-align: center;
     width: 300px;
 }
 
-#registerbutton{   
+#registerbutton {
     margin-top: 25px;
     border: #7c878b;
     background-color: #2099d12d;
@@ -424,129 +392,112 @@ mark{
     margin-bottom: 40px;
 }
 
-
-
-@media(max-width:576px){
-
-.registration h3{
-    font-size: large;
+@media(max-width:576px) {
+    .registration h3 {
+        font-size: large;
+    }
+    .registration h5 {
+        font-size: medium;
+    }
+    .forms {
+        padding-top: 25px;
+    }
+    .small-screen-form {
+        padding-top: 20px;
+    }
+    .small-screen-form label {
+        float: left;
+        padding: 0;
+        margin: 0;
+    }
+    .aligntop label {
+        float: left;
+        padding: 0;
+        margin: 0;
+    }
+    .aligntop textarea {
+        margin-top: 0;
+    }
+    .small-screen-form input {
+        width: 260px;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    .forms label {
+        display: inline;
+        width: 175px;
+        font-family: "Quicksand", sans-serif;
+    }
+    #registerbutton {
+        margin-bottom: 20px;
+    }
 }
 
-.registration h5{
-    font-size: medium;
-}
-
-.forms{
-    padding-top: 25px;
-}
-
-.small-screen-form{
-    padding-top: 20px;
-}
-
-.small-screen-form label{
-    float: left;   
-    padding: 0;
-    margin: 0;
-}
-
-.aligntop label{
-    float: left;   
-    padding: 0;
-    margin: 0;
-}
-
-.aligntop textarea{
-  margin-top: 0;
-}
-
-.small-screen-form input{
-    width: 260px;
-    height: 30px;    
-    margin-bottom: 10px;
-}
-
-.forms label{
-  display: inline;
-  width: 175px;   
-  font-family: "Quicksand", sans-serif; 
-}
-
-#registerbutton{   
-    margin-bottom: 20px;
-}
-}
 
 /* -------------------------------------------------------------CONTACT PAGE */
 
-.contact{
+.contact {
     text-align: center;
     color: #2098d1;
     padding: 20px;
 }
 
-#contactnote{
+#contactnote {
     font-size: x-large;
     font-family: "Quicksand", sans-serif;
 }
 
-.phone-email{
+.phone-email {
     padding: 30px;
     font-family: "Nunito", sans-serif;
 }
 
-.phone-email a{
-    font-size: x-large;     
+.phone-email a {
+    font-size: x-large;
 }
 
-.phone-email p{
+.phone-email p {
     font-size: 125%;
 }
 
-
-
-@media(max-width:576px){
-    .phone-email{
+@media(max-width:576px) {
+    .phone-email {
         text-align: center;
         min-width: 200px;
     }
- .phone-email a{
-    font-size: large;     
-}
-
-.phone-email p{
-    font-size: 110%;
-}
-    .email{
+    .phone-email a {
+        font-size: large;
+    }
+    .phone-email p {
+        font-size: 110%;
+    }
+    .email {
         padding-top: 20px;
         text-align: center;
-        word-wrap: break-word;              
-      
+        word-wrap: break-word;
     }
-
-.addresses{
-    font-size: 0.75rem;
+    .addresses {
+        font-size: 0.75rem;
+    }
+    .timing-note h4 {
+        font-size: 1.25rem;
+    }
+    .timing-note p {
+        font-size: 1rem;
+    }
 }
 
-.timing-note h4{
-    font-size: 1.25rem;
-}
-
-.timing-note p{
-    font-size: 1rem;
-}
-}
 
 /* -------------------------------------------------------------PRESS PAGE */
 
-.pressnote{
+.pressnote {
     text-align: center;
     font-family: "Quicksand", sans-serif;
     padding: 20px;
     color: #2098d1;
 }
 
-.press-links{
+.press-links {
     text-align: left;
     font-family: "Quicksand", sans-serif;
     padding: 20px;
@@ -555,22 +506,19 @@ mark{
     background-color: aliceblue;
 }
 
-.top-note-link{
+.top-note-link {
     color: #e47332;
 }
 
-.press-links li{
+.press-links li {
     padding-bottom: 30px;
 }
 
-
-@media(max-width:576px){
-
-    .press-links{
+@media(max-width:576px) {
+    .press-links {
         font-size: medium;
     }
-
-    .pressnote h4{
+    .pressnote h4 {
         font-size: medium;
     }
 }
