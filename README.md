@@ -8,7 +8,7 @@ This project should guide the user on his/her concerns about the vaccine and inf
 
 ## Showcase
 
-A deployed link to the website can be found [here](https://murthy1811.github.io/Milestone-project-1/).
+A deployed link to the website can be found [here](https://murthy1811.github.io/milestone-project-1/).
 
 Preview of the site is found [here](https://github.com/murthy1811/Milestone-project-1/blob/master/assets/images/snapshots/landing-page.JPG). 
 
@@ -234,7 +234,7 @@ To work on the project code within a local IDE such as VSCode, Pycharm etc:
 5. Change the current working directory to the location where you want the cloned directory to be made
 6. Type "git clone", and then paste the URL you copied in Step 3.
 
-   git clone https://github.com/murthy1811/Milestone-project-1.git
+   git clone https://github.com/murthy1811/milestone-project-1.git
 
 7. Press Enter. Your local clone will be created.
 
